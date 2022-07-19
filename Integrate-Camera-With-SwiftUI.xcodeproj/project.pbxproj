@@ -11,6 +11,8 @@
 		3BC320FF28873D82001C018B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC320FE28873D82001C018B /* ContentView.swift */; };
 		3BC3210128873D85001C018B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3210028873D85001C018B /* Assets.xcassets */; };
 		3BC3210428873D85001C018B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3210328873D85001C018B /* Preview Assets.xcassets */; };
+		3BC3210B288755A0001C018B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3210A288755A0001C018B /* ImagePicker.swift */; };
+		3BC3210D28875A95001C018B /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3210C28875A95001C018B /* PhotoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3BC320FE28873D82001C018B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BC3210028873D85001C018B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC3210328873D85001C018B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BC3210A288755A0001C018B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3BC3210C28875A95001C018B /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3BC320FE28873D82001C018B /* ContentView.swift */,
 				3BC3210028873D85001C018B /* Assets.xcassets */,
 				3BC3210228873D85001C018B /* Preview Content */,
+				3BC3210A288755A0001C018B /* ImagePicker.swift */,
+				3BC3210C28875A95001C018B /* PhotoCaptureView.swift */,
 			);
 			path = "Integrate-Camera-With-SwiftUI";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC3210B288755A0001C018B /* ImagePicker.swift in Sources */,
 				3BC320FF28873D82001C018B /* ContentView.swift in Sources */,
+				3BC3210D28875A95001C018B /* PhotoCaptureView.swift in Sources */,
 				3BC320FD28873D82001C018B /* Integrate_Camera_With_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
